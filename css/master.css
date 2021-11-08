@@ -1,0 +1,137 @@
+/* start Variables */
+:root {
+  --color-1: #34252f;
+  --color-2: #3b5249;
+  --color-3: #519872;
+  --color-4: #a4b494;
+  --color-5: #bec5ad;
+}
+/*End Variables */
+/* Start Global Rules */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Carter One", cursive;
+  background-color: var(--color-1);
+  transition: 0.7s;
+}
+ul {
+  list-style: none;
+}
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  background-color: var(--color-2);
+  box-shadow: 0 0 10px 0 black;
+  border-radius: 5px;
+}
+/* Small */
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+/* Medium */
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+/* Large */
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+/* End Global Rules */
+/* Start Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header i {
+  color: var(--color-5);
+  padding-top: 20px;
+  margin-left: 30px;
+}
+
+header ul {
+  display: flex;
+  padding-top: 20px;
+  margin-right: 30px;
+}
+
+header ul li {
+  color: var(--color-4);
+  margin: 0 10px;
+  font-size: 26px;
+}
+
+header ul li a {
+  color: var(--color-3);
+  text-decoration: none;
+}
+/* End Header */
+
+/* Start Main */
+/* Start Custom */
+.custom {
+  display: flex;
+}
+
+.custom button {
+  padding: 10px 7px;
+  margin: 10px auto;
+  color: var(--color-5);
+  background-color: var(--color-1);
+  border: 1px solid var(--color-1);
+  border-radius: 10px;
+  opacity: 0.6;
+  cursor: pointer;
+  box-shadow: 0 0 10px 0 black;
+}
+
+.custom button:hover {
+  opacity: 1;
+}
+/* End Custom */
+/* Start Grid */
+.grid {
+  margin: 13px auto;
+  background-color: white;
+  width: 90%;
+  height: 80vh;
+  box-shadow: 0 0 10px 0 var(--color-5);
+}
+
+.grid .px {
+  background-color: white;
+}
+/* End Grid */
+/* End Main */
+
+/* Start Footer */
+footer {
+  color: var(--color-5);
+  text-align: center;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-radius: 5px;
+}
+
+footer a {
+  text-decoration: none;
+  color: var(--color-1);
+  font-weight: bold;
+}
+/* End Footer */
