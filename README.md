@@ -45,6 +45,8 @@ To run this program locally, you can clone the repository to your local machine 
 Then open the `index.html` file in your web browser to start playing the game.
 
 ### To-do
+
+- [ ] Wireframe
 - [ ] Create 16x16 grid of square `div`s
     - [ ] dynamic JS
     - [ ] put it all in a `.container`

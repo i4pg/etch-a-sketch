@@ -1,0 +1,38 @@
+{
+  "name": "etch-e-scketch",
+  "version": "2.0.0",
+  "description": "Browser version of something between a sketchpad and an Etch-A-Sketch",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i4pg/etch-e-sketch.git"
+  },
+  "keywords": [
+    "html",
+    "css",
+    "js",
+    "etch-e-sketch",
+    "the-odin-project",
+    "odin",
+    "project",
+    "website",
+    "git",
+    "html5",
+    "css3",
+    "javascript"
+  ],
+  "author": "i4pg",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/i4pg/etch-e-sketch/issues"
+  },
+  "homepage": "https://github.com/i4pg/etch-e-sketch#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.6.5",
+    "@commitlint/config-conventional": "^17.6.5",
+    "husky": "^8.0.3"
+  }
+}
