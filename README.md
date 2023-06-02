@@ -18,7 +18,7 @@ You can play the game online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ### Wireframe
 
-![](src/image/wireframe.png)
+![](./src/image/wireframe/wireframe.png)
 
 ### ScreenShots
 
