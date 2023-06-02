@@ -4,7 +4,7 @@ Browser version of something between a sketchpad and an Etch-A-Sketch.
 
 ## Demo
 
-You can play the game online [here](https://i4pg.github.io/etch-e-sketch/).
+You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ## Features
 
@@ -34,7 +34,7 @@ You can play the game online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ### Usage
 
-You can play the game online [here](https://i4pg.github.io/etch-e-sketch/).
+You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ### Installation
 
