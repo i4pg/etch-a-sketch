@@ -18,7 +18,7 @@ You can play the game online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ### Wireframe
 
-<!-- ![](src/images/wireframe.png) -->
+![](src/images/wireframe.png)
 
 ### ScreenShots
 
@@ -46,12 +46,12 @@ Then open the `index.html` file in your web browser to start playing the game.
 
 ### To-do
 
-- [ ] Wireframe
+- [x] Wireframe
 - [ ] Create 16x16 grid of square `div`s
-    - [ ] dynamic JS
+    - [ ] Create it dynamically using  JS
     - [ ] put it all in a `.container`
     - [ ] make it appear as grid vs. One on each line
-    - [ ] `margin`, `padding`
+    - [ ] No `margin`, `padding`
 - [ ] Setup `:hover` effect
     - [ ] CSS class or JS ?
 - [ ] Make button for choosing grid size
