@@ -136,25 +136,20 @@ body {
   align-items: center;
 }
 
-.hamburger-content button {
-  border: none;
-  cursor: pointer;
-  text-transform: capitalize;
-  background-image: linear-gradient(to right, #603813 0%, #b29f94  51%, #603813  100%);
-  padding: 1em 1.5em;
-  text-align: center;
-  text-transform: uppercase;
-  transition: 0.5s;
-  background-size: 200% auto;
-  color: white;            
-  border-radius: 10px;
-  display: block;
+.hamburger-content .options {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  gap: .5em;
 }
 
-.hamburger-content button:hover {
-  background-position: right center; /* change the direction of the change here */
-  color: #fff;
-  text-decoration: none;
+.hamburger-content .option {
+  cursor: pointer;
+  color: var(--text);
+  background: var(--bg);
+  padding: .5em 1em;
+  border: 1px var(--secondry) solid;
 }
 
 
