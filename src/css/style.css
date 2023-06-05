@@ -194,7 +194,6 @@ body {
 
 .grid {
   margin: 0 auto;
-  width: 80%;
   height: 55vh;
   display: none;
   flex-flow: row wrap;
@@ -203,7 +202,4 @@ body {
 .pixel {
   flex: auto;
   background-color: var(--text);
-  outline-style: solid;
-  outline-color: plum;
-  outline-width: 1px;
 }

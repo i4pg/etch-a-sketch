@@ -24,5 +24,5 @@ function generateGrid(e) {
   removeIntroElement()
   setupGridElement()
   generateGridElement(size)
-  addPixelEvent()
+  setPixelEvent()
 }
