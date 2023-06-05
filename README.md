@@ -8,11 +8,11 @@ You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ## Features
 
-<!-- * Nice shuffling for rock paper scissors choices -->
-<!-- * Light/Dark mode -->
-<!-- * The winner is displayed at the end of the game. -->
-<!-- * The game keeps running and calculating points. -->
-<!-- * Responsive mobile-first design -->
+* Mobile-first Responsive Design
+* Using DRY principle
+* Eyes friendly colors 
+* Modern fonts
+* Dropdown menu has different grid sizes
 
 ## Showcase
 
@@ -26,6 +26,8 @@ You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 ![](./src/image/iphone.png)
 
 ![](./src/image/hd.png)
+
+![](./src/image/drop.png)
 
 ## Getting Started
 
