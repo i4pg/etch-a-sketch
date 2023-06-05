@@ -23,13 +23,9 @@ You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ### ScreenShots
 
-<!-- ![](./src/images/showcase/127.0.0.1_8080_iPhone12Pro.png) -->
+![](./src/image/iphone.png)
 
-<!-- ![](./src/images/showcase/127.0.0.1_8080_iPhonePro.png) -->
-
-<!-- ![](./src/images/showcase/127.0.0.1_8080_.png) -->
-
-<!-- ![](./src/images/showcase/127.0.0.1_8080_1.png) -->
+![](./src/image/hd.png)
 
 ## Getting Started
 
