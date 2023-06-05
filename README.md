@@ -19,6 +19,7 @@ You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
 ### Wireframe
 
 ![](./src/image/wireframe/wireframe.png)
+> NOTE: For now I decided to not go with dark/light mode feature
 
 ### ScreenShots
 
@@ -47,6 +48,11 @@ Then open the `index.html` file in your web browser to start playing the game.
 ### To-do
 
 - [x] Wireframe
+- [ ] UI
+ - [x] dropdown
+ - [x] grid options 
+ - [x] sketch button
+ - [x] page title
 - [ ] Create 16x16 grid of square `div`s
     - [ ] Create it dynamically using  JS
     - [ ] put it all in a `.container`

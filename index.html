@@ -12,6 +12,8 @@
   <link href="src/css/hover.css" rel="stylesheet">
   <script src="src/script/hamburger.js" defer></script>
   <script src="src/script/grid_options.js" defer></script>
+  <script src="src/script/component.js" defer></script>
+  <script src="src/script/grid.js" defer></script>
   <script src="src/script/index.js" defer></script>
 </head>
 
@@ -59,7 +61,7 @@
   </header>
   <main>
     <div class="container main">
-      <div class="intro">
+      <div class="intro" id="intro">
         <h1>etch-e-sketch</h1>
         <q cite="https://en.wikipedia.org/wiki/Etch_A_Sketch">Etch A Sketch is a mechanical drawing toy invented
           by André Cassagnes of France and subsequently manufactured
@@ -67,8 +69,9 @@
           the Ohio Art Company. It is now owned by Spin Master of Toronto, Ontario, Canada. An Etch A Sketch has a
           thick,
           flat gray screen in a red plastic frame.</q>
-        <button id="start" type="button" class="hvr-sweep-to-left">Start Sketching</button>
+        <button value="16" id="start" type="button" class="hvr-sweep-to-left">Start Sketching</button>
       </div>
+      <div class="grid" id="grid"></div>
     </div>
   </main>
   <footer>
