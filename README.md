@@ -1,10 +1,10 @@
-# etch-e-sketch
+# etch-a-sketch
 
 Browser version of something between a sketchpad and an Etch-A-Sketch.
 
 ## Demo
 
-You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
+You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ## Features
 
@@ -35,13 +35,13 @@ You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
 
 ### Usage
 
-You can try it online [here](https://i4pg.github.io/etch-e-sketch/).
+You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ### Installation
 
 To run this program locally, you can clone the repository to your local machine using the following command:
 
-`git clone https://github.com/i4pg/etch-e-sketch.git`
+`git clone https://github.com/i4pg/etch-a-sketch.git`
 
 Then open the `index.html` file in your web browser to start playing the game.
 
