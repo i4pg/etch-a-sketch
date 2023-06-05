@@ -1,54 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <!-- google fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Carter+One&display=swap"
-      rel="stylesheet"
-    />
-    <!-- main template CSS file -->
-  <link rel="stylesheet" href="css/master.css" />
-  <!-- render all files normally -->
-  <link rel="stylesheet" href="css/normalize.css" />
-  <!-- font awesome lib -->
-  <link rel="stylesheet" href="css/all.min.css" />
-  <!-- favicon -->
-    <link rel="icon" href="images/favicon.png" />
-    <script src="app.js" defer></script>
-    <title>Etch A Sketch</title>
-  </head>
-  <body>
-    <div class="container">
-      <header>
-        <i class="fas fa-paint-brush fa-3x"></i>
-        <ul>
-          <li>Etch</li>
-          <li><a href="https://github.com/xiyini">A</a></li>
-          <li>Sketch!</li>
-        </ul>
-      </header>
-      <main>
-        <section id="custom" class="custom">
-          <button type="submit">New Sketch</button>
-        </section>
-        <section id="grid" class="grid"></section>
-      </main>
-      <footer>
-        <link
-          rel="stylesheet"
-          type="text/css"
-          href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"
-        />
-        Made with <br />
-        <i class="icon ion-heart" style="color: #e25555"></i>
-        <br />
-        <a href="https://github.com/xiyini">xiyiwi</a>
-      </footer>
+
+<head>
+  <title>etch-e-sketch</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/iconoir-icons/iconoir@main/css/iconoir.css">
+  <link href="src/css/hamburgers.css" rel="stylesheet">
+  <link href="src/css/font.css" rel="stylesheet">
+  <link href="src/css/style.css" rel="stylesheet">
+  <link href="src/css/hover.css" rel="stylesheet">
+  <script src="src/script/hamburger.js" defer></script>
+  <script src="src/script/navbar_options.js" defer></script>
+  <script src="src/script/helper.js" defer></script>
+  <script src="src/script/grid.js" defer></script>
+  <script src="src/script/colorize.js" defer></script>
+  <script src="src/script/toy.js" defer></script>
+  <script src="src/script/index.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <div class="container header">
+      <div class="left-header">
+        <a href="#">
+          <h2>
+            <p>\</p> etch-e-sketch.
+          </h2>
+        </a>
+      </div>
+      <div class="right-header">
+        <button id="hamburger" class="hamburger hamburger--collapse" type="button">
+          <span class="hamburger-box">
+            <span class="hamburger-inner">
+            </span>
+          </span>
+        </button>
+        <div id="hamburger-content" class="hamburger-content">
+          <ul>
+            <li>
+              <a class="hvr-icon-push" href="https://github.com/i4pg" target="_blank">
+                <i class="hvr-icon iconoir-github"></i>
+              </a>
+            </li>
+            <li>
+              <a class="hvr-icon-push" href="https://twitter.com/wiyih" target="_blank">
+                <i class="hvr-icon iconoir-twitter"></i>
+              </a>
+            </li>
+          </ul>
+          <hr>
+          <div class="options" id="options">
+          </div>
+        </div>
+      </div>
     </div>
-  </body>
+  </header>
+  <main>
+    <div class="container main">
+      <div class="toy" id="toy">
+        <div class="grid" id="grid"></div>
+        <div class="analog-container">
+          <div class="analog">
+            <div class="circle" id="left-circle"></div>
+          </div>
+          <a class="hvr-icon-push" href="https://theodinproject.com" target="_blank">
+            <img class="hvr-icon odin" src="src/image/odin-icon.svg" alt="odin logo">
+          </a>
+          <div class="analog">
+            <div class="circle" id="right-circle"></div>
+          </div>
+        </div>
+      </div>
+      <div class="intro" id="intro">
+        <h1>etch-e-sketch</h1>
+        <q cite="https://en.wikipedia.org/wiki/Etch_A_Sketch">Etch A Sketch is a mechanical drawing toy invented
+          by André Cassagnes of France and subsequently manufactured
+          by
+          the Ohio Art Company. It is now owned by Spin Master of Toronto, Ontario, Canada. An Etch A Sketch has a
+          thick,
+          flat gray screen in a red plastic frame.</q>
+        <button value="16" id="start" type="button" class="hvr-sweep-to-left">Start Sketching</button>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container footer">
+      <p>
+        Made with
+        <svg viewBox="0 0 1792 1792" preserveAspectRatio="xMidYMid meet" xmlns="http://www.w3.org/2000/svg"
+          style="height: 0.8rem;">
+          <path
+            d="M896 1664q-26 0-44-18l-624-602q-10-8-27.5-26T145 952.5 77 855 23.5 734 0 596q0-220 127-344t351-124q62 0 126.5 21.5t120 58T820 276t76 68q36-36 76-68t95.5-68.5 120-58T1314 128q224 0 351 124t127 344q0 221-229 450l-623 600q-18 18-44 18z"
+            fill="var(--secondry)"></path>
+        </svg>
+      </p>
+      <p><a target="_blank" href="https://www.twitter/com/wiyih">Abdullah Alattas</a></p>
+    </div>
+  </footer>
+</body>
+
 </html>
