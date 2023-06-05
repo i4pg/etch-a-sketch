@@ -9,7 +9,10 @@ sizesArray
   .forEach(
     size =>
       size.addEventListener(
-        'click', generateGrid)
+        'click', (e) => {
+          generateGrid(e)
+          if (size !== startButton) {
+            toggleHamburger()
+          }
+        })
   )
-
-

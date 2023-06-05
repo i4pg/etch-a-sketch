@@ -11,7 +11,7 @@ function generateGridElement(size) {
 
 function setupGridElement() {
   gridElement.innerHTML = ""
-  gridElement.style.display = "flex"
+  gridElement.parentElement.style.display = "block"
 }
 
 function removeIntroElement() {

@@ -15,6 +15,7 @@
   <script src="src/script/helper.js" defer></script>
   <script src="src/script/grid.js" defer></script>
   <script src="src/script/colorize.js" defer></script>
+  <script src="src/script/toy.js" defer></script>
   <script src="src/script/index.js" defer></script>
 </head>
 
@@ -43,11 +44,6 @@
               </a>
             </li>
             <li>
-              <a class="hvr-icon-push" href="https://theodinproject.com" target="_blank">
-                <img class="hvr-icon odin" src="src/image/odin-icon.svg" alt="odin logo">
-              </a>
-            </li>
-            <li>
               <a class="hvr-icon-push" href="https://twitter.com/wiyih" target="_blank">
                 <i class="hvr-icon iconoir-twitter"></i>
               </a>
@@ -62,7 +58,20 @@
   </header>
   <main>
     <div class="container main">
-      <div class="grid" id="grid"></div>
+      <div class="toy" id="toy">
+        <div class="grid" id="grid"></div>
+        <div class="analog-container">
+          <div class="analog">
+            <div class="circle" id="left-circle"></div>
+          </div>
+          <a class="hvr-icon-push" href="https://theodinproject.com" target="_blank">
+            <img class="hvr-icon odin" src="src/image/odin-icon.svg" alt="odin logo">
+          </a>
+          <div class="analog">
+            <div class="circle" id="right-circle"></div>
+          </div>
+        </div>
+      </div>
       <div class="intro" id="intro">
         <h1>etch-e-sketch</h1>
         <q cite="https://en.wikipedia.org/wiki/Etch_A_Sketch">Etch A Sketch is a mechanical drawing toy invented
