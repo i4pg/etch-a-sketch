@@ -23,13 +23,14 @@ You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ### ScreenShots
 
-![](./src/image/iphone.png)
+![](./src/image/show.gif)
 
-![](./src/image/hd.png)
+![](./src/image/iphone.png)
 
 ![](./src/image/drop.png)
 
-![](./src/image/show.gif)
+![](./src/image/hd.png)
+
 
 ## Getting Started
 
