@@ -1,17 +1,26 @@
 const intro = document.getElementById('intro')
-const startButton = document.getElementById('start')
 const grid = document.getElementById('grid')
 
-function generateGrid(size) {
+function generateGridElement(size) {
   for (let i = 0; i < size; i++) {
-    const ele = createEle('div', 'pixel', 'pixel', "", "")
-    grid.appendChild(ele)
+    const element = createEle('div', 'pixel', 'pixel', "", "")
+    grid.appendChild(element)
   }
 }
 
-function myFunc(e) {
+function setupGrid() {
   grid.innerHTML = ""
+  grid.style.display = "flex"
+}
+
+function removeIntro() {
   intro.remove()
-  size = e.target.getAttribute('value')
-  generateGrid(size)
+}
+
+function generateGrid(e) {
+  const size = e.target.getAttribute('value')
+
+  removeIntro()
+  setupGrid()
+  generateGridElement(size)
 }

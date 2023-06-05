@@ -195,8 +195,8 @@ body {
 .grid {
   margin: 0 auto;
   width: 80%;
-  height: 45vh;
-  display: flex;
+  height: 50vh;
+  display: none;
   flex-flow: row wrap;
 }
 

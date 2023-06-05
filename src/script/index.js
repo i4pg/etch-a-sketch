@@ -1,6 +1,13 @@
+const startButton = document.getElementById('start')
+let optionsArray = options.children
+optionsArray = Array.from(options.children)
+optionsArray.push(startButton)
+
+optionsArray
+  .forEach(
+    option =>
+      option.addEventListener(
+        'click', generateGrid)
+  )
+
 generateOptions()
-startButton.addEventListener('click', myFunc)
-Array.from(options.children).forEach(option => {
-  option.addEventListener('click', myFunc)
-}
-)
