@@ -33,6 +33,7 @@ a {
 /* BODY */
 
 body {
+  margin: 0;
   height: 100vh;
   display: flex;
   flex-flow: column;
@@ -139,7 +140,7 @@ body {
 .hamburger-content .options {
   margin-top: 1em;
   display: flex;
-  flex-flow: row nowrap;
+  flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
   gap: .5em;
@@ -193,7 +194,6 @@ body {
 /* TOY */
 
 .toy {
-  margin-top: 3em;
   display: none;
   border: solid 2px var(--secondry);
   border-bottom-left-radius: 20px;
@@ -204,7 +204,7 @@ body {
 
 .grid {
   margin: 0 auto;
-  height: 55vh;
+  height: 50vh;
   display: flex;
   flex-flow: row wrap;
   border-bottom: solid 2px var(--secondry);
@@ -239,4 +239,23 @@ body {
   height: 1rem;
   border-radius: 50% 50%;
   background-color: var(--text);
+}
+
+/* FOOTER */
+
+.footer { 
+  padding: 2em 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+  color: var(--text);
+}
+
+.footer p {
+  margin: 0.3em 0;
+}
+
+.footer a {
+  color: var(--primary);
 }
