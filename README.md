@@ -29,6 +29,8 @@ You can try it online [here](https://i4pg.github.io/etch-a-sketch/).
 
 ![](./src/image/drop.png)
 
+![](./src/image/show.gif)
+
 ## Getting Started
 
 ### Usage
