@@ -1,13 +1,15 @@
 const startButton = document.getElementById('start')
-let optionsArray = options.children
-optionsArray = Array.from(options.children)
-optionsArray.push(startButton)
+appendSizesChoices()
 
-optionsArray
+
+let sizesArray = options.children
+sizesArray = Array.from(options.children)
+sizesArray.push(startButton)
+sizesArray
   .forEach(
-    option =>
-      option.addEventListener(
+    size =>
+      size.addEventListener(
         'click', generateGrid)
   )
 
-generateOptions()
+

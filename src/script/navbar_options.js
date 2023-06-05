@@ -1,7 +1,6 @@
 const options = document.getElementById('options')
 
-function generateOptions() {
-  options.innerHTML = ""
+function appendSizesChoices() {
   let sizes = [16, 32, 64]
 
   sizes.forEach(size => {
