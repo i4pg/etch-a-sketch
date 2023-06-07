@@ -46,30 +46,32 @@ To run this program locally, you can clone the repository to your local machine 
 
 Then open the `index.html` file in your web browser to start playing the game.
 
-<!-- ### To-do -->
+### To-do
 
-<!-- - [x] Wireframe -->
-<!-- - [x] UI -->
-<!--  - [x] dropdown -->
-<!--  - [x] grid options  -->
-<!--  - [x] sketch button -->
-<!--  - [x] page title -->
-<!-- - [x] Create 16x16 grid of square `div`s -->
-<!--     - [x] Create it dynamically using  JS -->
-<!--     - [x] put it all in a `.container` -->
-<!--     - [x] make it appear as grid vs. One on each line -->
-<!--     - [x] No `margin`, `padding` -->
-<!-- - [x] Setup `:hover` effect -->
-<!--     - [x] CSS class or JS ? -->
-<!-- - [x] Make button for choosing grid size -->
-<!--     - [x] Replace the old grid -->
-<!--     - [x] All in one container -fixed space- -->
-<!--     - [x] Max = 100 -->
-<!--     - [x] JS fun when button clicked -->
-<!--     - [x] `prompt` -->
-<!-- - [x] debugging -->
-<!--     - [x] 64x64 works? -->
-<!-- - [x] Each pass through change it to a completely random RGB value. Then each pass just add another 10% of black to it so that only after 10 passes is the square completely black. -->
+- [ ] Support Canvas
+ - [ ] Support download
+- [x] Wireframe
+- [x] UI
+ - [x] dropdown
+ - [x] grid options 
+ - [x] sketch button
+ - [x] page title
+- [x] Create 16x16 grid of square `div`s
+    - [x] Create it dynamically using  JS
+    - [x] put it all in a `.container`
+    - [x] make it appear as grid vs. One on each line
+    - [x] No `margin`, `padding`
+- [x] Setup `:hover` effect
+    - [x] CSS class or JS ?
+- [x] Make button for choosing grid size
+    - [x] Replace the old grid
+    - [x] All in one container -fixed space-
+    - [x] Max = 100
+    - [x] JS fun when button clicked
+    - [x] `prompt`
+- [x] debugging
+    - [x] 64x64 works?
+- [x] Each pass through change it to a completely random RGB value. Then each pass just add another 10% of black to it so that only after 10 passes is the square completely black.
 
 
 ## Contributing
